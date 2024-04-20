@@ -50,11 +50,12 @@ body {
 
 .left-image-footer {
     display: flex;
-    width: fit-content;
+    width: 35vw;
+
+    justify-content: center;
 
     position: absolute;
     bottom: 10px;
-    
 }
 
 .left-image-footer p,
@@ -172,14 +173,25 @@ input[type="password"]{
     color: #596D48;
 }
 
+#first-name:focus,
+#last-name:focus,
+#user-email:focus,
+#user-phone:focus,
+#password:focus,
+#confirmPassword:focus {
+    border-color: blue;
+    box-shadow: 0px 5px 10px black;
+}
+
 #first-name:invalid,
 #last-name:invalid,
 #user-email:invalid,
 #user-phone:invalid,
 #password:invalid,
-#confirm-password:invalid {
+#confirmPassword:invalid {
     border-color: red;
 }
 #pwdnomatch {
     color: red;
+    visibility: hidden;
 }
