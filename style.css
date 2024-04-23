@@ -196,3 +196,22 @@ input[type="password"]{
     color: red;
     visibility: hidden;
 }
+
+  @media all and (max-width: 1024px) {
+    body {
+        flex-flow: column;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100vw;
+    }
+
+    .left-image-footer {
+        width: 100vw;
+    }
+
+    .submit-buttons {
+        align-items: center;
+    }
+  }
