@@ -68,6 +68,7 @@ body {
     flex-flow: column;
 
     width: 65vw;
+    height: 100vh;
 
     padding-top: 100px;
 
